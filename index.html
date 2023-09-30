@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>School grade</title>
+</head>
+<body>
+   <div class="schoolgrade">
+    <div class="fstrow">
+        <input type="text" name="" id="name" placeholder="Enter name">
+        <hr class="orange">
+        
+    </div>
+    <div class="bod">
+    <div class="secrow">
+   <p class="math">Math: </p > <p class="english">English:</p> <p class="physics">Physics:</p>  <p class="chemistry"> Chemistry:</p> 
+    </div>
+    <div class="thdrow">
+          <input type="text" placeholder="CA" class="first" id="first" required><input type="text"placeholder="CA" class="second" id="fourth"><input type="text" placeholder="CA" class="third" id="seven"><input type="text" placeholder="CA" class="third" id="ten">
+    </div><br /> 
+    <div class="fourthrow">
+          <input type="text" placeholder="CA" class="third" id="second"><input type="text" placeholder="CA" class="third" id="fifth"><input type="text" placeholder="CA" class="third" id="eight"><input type="text" placeholder="CA" class="third" id="eleven">
+    </div> 
+    <div class="fifthrow">
+        <input type="text" placeholder="Examination" class="third" id="third"><input type="text" placeholder="Examination" class="third" id="sixth"><input type="text" placeholder="Examination" class="third" id="nine"><input type="text" placeholder="Examination" class="third" id="twelve">
+    </div>
+    <div class="sevenrow">
+        <button class="but1" onclick="first()">ADD</button><button class="but2" onclick="second()">ADD</button><button class="but3" onclick="third()">ADD</button><button class="but4" onclick="fourth()">ADD</button>
+    </div>
+    <div class="eightrow">
+        <input type="text" class="inp1" id="result1" readonly><input type="text" class="inp2" id="result2" readonly><input type="text" class="inp3" id="result3" readonly><input type="text" class="inp4" id="result4" readonly>
+    </div></div>
+    <div class="sixthrow">
+        <button class="average" onclick="average()" >Average</button>
+        <button class="grade" onclick="grade()">Grade</button>
+        <button class="remark" onclick="remark()">Remark</button>
+    </div>
+    <hr class="oran">
+    <div class="show">
+    <H1 id="average"></H1>
+    <h1 id="grade"></h1>
+    <h2 id="remark"></h1>
+    </div>
+   </div>
+
+   
+   
+    <script src="main.js"></script>
+</body>
+</html>

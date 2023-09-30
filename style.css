@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+    
+}
+.show {
+    color: white;
+}
+.schoolgrade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: bisque; */
+    align-items: center;
+    padding: 10px;
+}
+.orange {
+    color: orange;
+    
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+}
+.oran {
+   margin-top: 15px;
+   width: 900px;
+}
+h1 {
+    color: green ;
+}
+h2 {
+    color: green;
+}
+.but1 {
+    height: 50px ;
+    margin-top: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.but2 {
+    height: 50px ;
+    width: 100px;
+    margin-bottom: 5px;
+}
+.but3 {
+    height: 50px ;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.but4 {
+    height: 50px ;
+    width: 100px;
+    margin-top: 5px;
+}
+.inp1{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.inp2{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.inp3{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.inp4{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input {
+    color: orange;
+}
+input:focus {
+    outline: none;
+    color: orange;
+}
+.average {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+.grade {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+.remark {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+.math {
+    margin-top: 20px;
+}
+.english {
+    margin-top: 30px;
+}
+.physics {
+    margin-top: 30px;
+}
+.chemistry {
+    margin-top: 30px;
+    margin-right: 5px;
+}
+#name {
+    height: 100px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 20px;
+    color: orange;
+    /* font-variant: normal; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 25px;
+}
+.bod {
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+.secrow {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    /* word-spacing: 40px; */
+    font-size: 25px;
+    /* height:100px ;
+     */
+    /* margin-right: 30px; */
+}
+.thdrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-size: 30px;
+    /* color: orange; */
+}
+.fourthrow {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.fifthrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.sevenrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.eightrow {
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    height: 60px;
+}
+.second {
+    height: 60px;
+
+}
+.third {
+    height: 60px;
+}
+.sixthrow {
+    margin-top: 10px;
+}
+.sevenrow button {
+     background-color: white;
+     font-weight: 5000px;
+}
